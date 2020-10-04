@@ -1,0 +1,42 @@
+.directory-menu__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28rem;
+  flex: 0 0 calc(33% - 2rem);
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+
+  &:hover .directory-menu__item-content {
+    background-color: white;
+  }
+
+  &:hover  .directory-menu__bg {
+    transform: scale(1.1);
+  }
+}
+
+.directory-menu__bg {
+  width: 100%;
+  height: 100%;
+  transition: all 1s;
+  position: absolute;
+  z-index: -1;
+}
+
+.directory-menu__item-content {
+  border: 1px solid #444444;
+  padding: 2rem;
+  background-color: rgba(#fff, .4);
+}
+
+.directory-menu__item-title {
+
+}
+
+.directory-menu__item-subtitle {
+
+}
