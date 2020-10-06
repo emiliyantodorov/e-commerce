@@ -1,0 +1,30 @@
+.collection-item { // flex-item
+  flex: 0 0 22%;
+
+  &__body {
+    height: 30rem;
+  }
+
+  &__img {
+
+  }
+
+  &__footer {
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+
+  &__name {
+
+  }
+
+  &__price {
+
+  }
+}
+
+.cta--add-to-cart {
+
+}

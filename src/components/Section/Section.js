@@ -1,9 +1,9 @@
 import React from "react";
 import "./section.scss"
 
-const Section = ({cName, children})=> {
+const Section = ({cName, children, id})=> {
     return (
-        <section className={cName}>
+        <section key={id} className={cName}>
             <div className="container">
                 {children}
             </div>
