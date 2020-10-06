@@ -1,0 +1,20 @@
+.main-navbar {
+  padding: 2rem 0;
+}
+
+.logo-box {
+
+}
+
+.main-nav {
+  margin-left: auto;
+
+  &__link {
+    margin-left: 2rem;
+    color: #444444;
+
+    &:hover {
+      color: lighten(#444, 6%);
+    }
+  }
+}

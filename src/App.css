@@ -2,3 +2,8 @@
 .heading-secondary {
     margin-bottom: 2rem;
 }
+
+/*UTILITES*/
+.main-navbar-wrapper {
+    display: flex;
+}
