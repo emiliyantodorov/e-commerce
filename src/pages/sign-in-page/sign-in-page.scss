@@ -1,0 +1,40 @@
+.sign-in-page {
+  padding: 5rem 0;
+}
+
+.section-sign-in {
+
+}
+
+.form--sign-in {
+
+}
+
+.cta--sign-in {
+  padding: 1rem 2rem;
+  border: none;
+  background-color: cadetblue;
+  color: darken(cadetblue, 30%);
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+
+  &:hover {
+    background: darken(cadetblue, 6%);
+    color: white;
+  }
+}
+
+.cta--sign-in-with-google {
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #f79c7b;;
+  color: darken(#f79c7b, 30%);
+  font-size: 2rem;
+  cursor: pointer;
+
+  &:hover {
+    background: darken(coral, 6%);
+    color: white;
+  }
+}

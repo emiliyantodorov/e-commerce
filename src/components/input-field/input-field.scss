@@ -1,0 +1,14 @@
+.field {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 2rem;
+}
+
+label {
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 1rem 2rem;
+  border-radius: .4rem;
+}

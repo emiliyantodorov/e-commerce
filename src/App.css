@@ -1,9 +1,29 @@
 /*TYPOGRAPHY*/
 .heading-secondary {
     margin-bottom: 2rem;
+    text-align: center;
 }
 
-/*UTILITES*/
+.sign-in-page-heading {
+    margin-bottom: 5rem;
+}
+
+/*UTILITIES*/
 .main-navbar-wrapper {
     display: flex;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 4rem;
+    border-radius: .4rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .4);
+}
+
+.cta {
+
 }
